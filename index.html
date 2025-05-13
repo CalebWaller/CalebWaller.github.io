@@ -1,7 +1,73 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<!-- This page is adapted from w3schools "How to make a link tree website https://www.w3schools.com/howto/howto_website_create_linktree.asp" -->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Caleb Waller</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="main-text-color">
+  <!-- Content container. Everything except footer goes here -->
+  <div class="container">
+    <!-- Image and name container. Put your replacement photo—which you should crop to be square—in the images folder, then change the source attribute to images/yourportraitfilename.jpg. This path says, "Look in the images folder for yourportraitfilename.jpg." Be sure to change the alt text, too. -->
+    <div class="image-container">
+      <img src="images/portrait.jpg" alt="This is not me lol.">
+    </div>
+    <div class="intro">
+      I'm <span class="name"><strong>Caleb Waller</strong></span>, I love writing and working out. This is my website.
+    </div>
+    <div class="section-header">
+      <h1>My work</h1>
+    </div>
+    <!-- Replace the # inside of the href="#" with your links. -->
+    <div class="links-container">
+      <div class="button toggle">Blog post</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>The Art of the Difficulty Spike</h2>
+          <p>I wrote about the fabled difficulty spike seen in so many video games. I back up it's merits, specifically
+            it's use in creating unique gaming experiences.</p>
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=_gbSSWJAvoERoXEg" class="external-link" target="_blank">Read</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Video</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>NEVER MIND</h2>
+          <p>Video recorded around ten years ago by a cousin. I thought he was joking.</p>
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=_gbSSWJAvoERoXEg" class="external-link" target="_blank">Watch</a>
+        </div>
+      </div>
+
+      <div class="button toggle">Podcast</div>
+      <div class="slidedown">
+        <div class="description">
+          <h2>Coming Soon!</h2>
+          <p>My groupmates and I are still working on it!</p>
+          <a href="https://youtu.be/dQw4w9WgXcQ?si=_gbSSWJAvoERoXEg" class="external-link" target="_blank">Listen</a>
+        </div>
+      </div>
+    </div>
+    <!-- Replace # with PDF from Google Docs, or replace the entire section with whatever you want. Or delete it! Or add another section below it!-->
+    <div class="section-header">
+      <h1>About me</h1>
+    </div>
+
+    <div class="links-container">
+      <a href="https://youtu.be/dQw4w9WgXcQ?si=_gbSSWJAvoERoXEg" class="button" target="_blank">Resume</a>
+    </div>
+
+  </div>
+  <div class="footer">
+    <p>© Andy Lautenschlager, 2024. Based on a design by <a
+        href="https://youtu.be/dQw4w9WgXcQ?si=_gbSSWJAvoERoXEg" target="_blank">w3schools</a>.
+    </p>
+  </div>
+  <script type="text/javascript" src="js/slider.js"></script>
 </body>
+
 </html>
