@@ -25,7 +25,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background: linear-gradient(rgba(255, 255, 255, 0.095), rgba(255, 255, 255, 0.095)), url(../images/zero4hd.jpg);
+    background: url(../images/zero4hd.jpg);
     /* Prevents the browser from repeating or "tiling" the background image */
     background-repeat: no-repeat;
     background-position: center;
